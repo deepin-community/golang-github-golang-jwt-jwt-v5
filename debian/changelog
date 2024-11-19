@@ -1,5 +1,20 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-golang-jwt-jwt-v5 (5.2.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
+  * Standards-Version: 4.7.0.
+  * Fix lintian update-debian-copyright.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Simon Josefsson <simon@josefsson.org>  Mon, 23 Sep 2024 19:56:11 +0200
+
+golang-github-golang-jwt-jwt-v5 (5.2.0-2) unstable; urgency=medium
+
+  * Wrap-and-sort.
+  * Drop debian/salsa-ci.yml now that package is in unstable.
+
+ -- Simon Josefsson <simon@josefsson.org>  Fri, 29 Dec 2023 20:40:56 +0100
+
+golang-github-golang-jwt-jwt-v5 (5.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1059620)
+
+ -- Simon Josefsson <simon@josefsson.org>  Fri, 29 Dec 2023 12:15:39 +0100
