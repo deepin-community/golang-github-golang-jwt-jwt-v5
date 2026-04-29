@@ -1,3 +1,13 @@
+golang-github-golang-jwt-jwt-v5 (5.2.1-1deepin1) unstable; urgency=medium
+
+  * Fix CVE-2025-30204: DoS via asymmetric resource consumption in
+    ParseUnverified. The function ParseUnverified used strings.Split to
+    parse JWT tokens, which could cause O(n) memory allocations with
+    malicious input containing many periods. Fixed by replacing with
+    strings.Cut based splitToken function.
+
+ -- hudeng <hudeng@deepin.org>  Wed, 29 Apr 2026 12:07:30 +0800
+
 golang-github-golang-jwt-jwt-v5 (5.2.1-1) unstable; urgency=medium
 
   * New upstream release.
